@@ -23,7 +23,7 @@ DEPS = $(OBJECTS:.o=.d)
 
 # flags #
 # -g enables debug symbols, -O0 disables compiler optimisation
-COMPILE_FLAGS = -std=c++11 -Wall -Wextra -g -O0
+COMPILE_FLAGS = -std=c++17 -Wall -Wextra -g -O0
 INCLUDES = -I include/ -I /usr/local/include
 # Space-separated pkg-config libraries used by this project
 LIBS =
