@@ -14,4 +14,4 @@ This produces a symlink (named `reader` by default) that will allow you to read 
 ./reader [name of LHE event file]
 ```
 
-It is recommended to add the location of the symlink to your `PATH` environment variable.
+It is recommended to add the location of the symlink to your `PATH` environment variable if not installed to a standard location.
